@@ -23,6 +23,7 @@ dependencies {
 	implementation 'com.netflix.graphql.dgs:graphql-dgs-extended-scalars'
 
 	implementation 'net.datafaker:datafaker:1.7.0'
+	implementation 'org.apache.commons:commons-lang3:3.12.0'
 }
 
 tasks.named('test') {
