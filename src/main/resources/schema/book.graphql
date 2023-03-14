@@ -23,3 +23,8 @@ type Book {
     author: Author!
     released: ReleaseHistory
 }
+
+input ReleaseHistoryInput {
+    year: Int
+    printedEdition: Boolean
+}
