@@ -8,4 +8,5 @@ type Query {
     books(author: String): [Book]
     booksByReleased(releasedInput: ReleaseHistoryInput!): [Book]
     mobileApps(mobileAppFilter: MobileAppFilter): [MobileApp]
+    pets(petFilter: PetFilter): [Pet]
 }
