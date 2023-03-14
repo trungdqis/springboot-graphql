@@ -1,3 +1,7 @@
+scalar Url
+scalar Date
+scalar NonNegativeInt
+
 type Query {
     allHellos: [Hello]
     oneHello: Hello
