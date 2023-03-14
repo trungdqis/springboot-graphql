@@ -1,0 +1,17 @@
+type MobileApp {
+    name: String!
+    version: String!
+    platform: [String]
+    author: Author
+}
+
+input MobileAppFilter {
+    name: String
+    version: String
+    platform: String
+    author: AuthorFilter
+}
+
+input AuthorFilter {
+    name: String
+}
