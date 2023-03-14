@@ -32,4 +32,5 @@ tasks.named('test') {
 
 generateJava {
 	packageName = 'com.trungdq.graphql.generated'
+	generateClient = true
 }
